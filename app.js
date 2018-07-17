@@ -1,10 +1,9 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const prefix = '!';
-const rechannel = '443668886878027776';
 const botowner = '324432889561219072';
 
-let statuses = ['!help', 'Hello!'];
+let statuses = ['!Help', 'Hello!'];
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`)
